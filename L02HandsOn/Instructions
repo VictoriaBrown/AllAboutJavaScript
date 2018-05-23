@@ -1,0 +1,14 @@
+REQUIREMENTS:
+Create a new project located on your desktop named L02HandsOn and open it within Visual Studio Code. Complete the following within this project.
+
+Create two files: index.html and script.js.
+Link your JavaScript file to your HTML file.
+Within the script.js file, add the following:
+  Create an object named idealCar
+  Within the idealCar object, add the following:
+    a name property with a value of mustang
+    a color property with a value of red
+    a weightInPounds property with a value of 3600
+    a method named myCar that takes each of the values and concatinates them together and console.logs My ideal car is a mustang with a color of red, but I don't want it to be over 3600 pounds.
+Call the method at the bottom of your file so you can see the console.log in your console.
+Use the http-server to see your page working in the web browser.
