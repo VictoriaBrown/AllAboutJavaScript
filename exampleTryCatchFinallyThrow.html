@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+  <p> Please input a number between 10 and 25:</p>
+
+  <input id='demo' type='number'>
+  <button type='button' onclick='myFunction()'>Test Input</button>
+  <p id='message'></p>
+
+  <script>
+  function myFunction() {
+    let message = document.getElementById('message');
+    message.innerHTML = "";
+    let x = document.getElementById('demo').value;
+    try {
+      if(x == "") throw 'Please input a number';
+      if(x < 10) throw "Your number is too low!";
+      if (x > 25) throw "Your number is too high!";
+    }
+    catch (err) {
+      message.innerHTML = "Input " + err;
+    }
+    finally {
+      document.getElementById('demo').value = "";
+    }
+  }
+  </script>
+</body>
+</html>
