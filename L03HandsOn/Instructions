@@ -1,0 +1,21 @@
+Part 1
+Create a switch..case statement to check against highSchoolGrade and set yourGrade that accomplishes the following:
+
+if 9 assign "Freshman" to the yourGrade variable
+if 10 assign "Sophomore" to the yourGrade variable
+if 11 assign "Junior" to the yourGrade variable
+if 12 assign "Senior" to the yourGrade variable
+include a default case that assigns "Invalid" to yourGrade.
+Part 2
+Leverage your knowledge of the JavaScript programming language to convert the following if..else into a ternary.
+
+script.js file:
+
+function name() {
+  if (firstName === "John") {
+    document.getElementById("demo").innerHTML = "Hello John!";
+  }
+  else {
+    document.getElementById("demo").innerHTML = "Hello Human!";
+  }
+}
