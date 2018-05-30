@@ -1,0 +1,31 @@
+Requirements
+Use your new knowledge of the JavaScript programming language to create three subclasses of the Employee parent class given. Each class should inherit from Employee as well as contain two methods specific to each subclass.
+
+script.js file:
+
+class Employee {
+  constructor(name, salary, hireDate) {
+    this.name = name;
+    this.salary = salary;
+    this.hireDate = hireDate;
+  }
+  getName() {
+    console.log(this.name.toUpperCase());
+  }
+  getSalary() {
+    console.log(this.salary);
+  }
+  getHireDate() {
+    console.log(this.hireDate);
+  }
+}
+Three new subclasses:
+
+Manager
+Designer
+SalesAssociate
+Examples of the methods for these subclasses:
+
+jobDescription()
+yearsExperience()
+degreeCompleted()
