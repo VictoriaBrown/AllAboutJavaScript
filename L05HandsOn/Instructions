@@ -1,0 +1,10 @@
+Requirements
+Create a new project located on your desktop named L05HandsOn and open it within Visual Studio Code. Complete the following within this project.
+
+Create two files: index.html and style.css.
+Link your CSS file to your HTML file.
+Give your page the following:
+Header
+At least ten (10) images
+Use Flexbox to center and evenly space your images
+Style your page to your liking
