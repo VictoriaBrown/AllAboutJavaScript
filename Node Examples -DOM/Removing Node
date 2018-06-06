@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="div1">
+        <p id="p1">Hi! I'm a paragraph.</p>
+        <p id="p2">Hello! I'm another paragraph.</p>
+    </div>
+
+    <script>
+        var parentNode = document.getElementById("div1");
+        var childNode = document.getElementById("p1");
+        parentNode.removeChild(childNode);
+    </script>
+</body>
+
+</html>
