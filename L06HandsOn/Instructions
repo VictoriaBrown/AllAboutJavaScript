@@ -1,0 +1,21 @@
+Requirements
+Leverage your knowledge of Bootstrap to create a web page that contains the following:
+
+Nav bar
+At least four nav tabs/pills
+At least one of those should be a drop-down menu
+Add a Search box for the nav bar that includes a glyphicon
+A Form that includes:
+First Name
+Last Name
+Phone Number
+Email
+A table that contains:
+A border
+Hoverable rows
+At least three columns and four rows
+Be creative with the content that lives within this table
+Align the table and form next to one another using the grid system
+At least three Bootstrap buttons with different colors (primary, danger, etc...)
+Give your page some styling using CSS (color, font, etc..)
+Use the Bootstrap Grid Layout to align your navbar and form.
