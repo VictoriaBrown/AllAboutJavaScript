@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+</head>
+
+<body>
+    <button onclick="addAChild()">Add a div element to the container!</button>
+    <div id="container"></div>
+    <script>
+        function addAChild() {
+            let newElem = document.createElement("div");
+            newElem.innerHTML = "This is a new Element created by appendChild()";
+            let container = document.getElementById("container");
+            container.appendChild(newElem);
+        }
+    </script>
+</body>
+
+</html>
