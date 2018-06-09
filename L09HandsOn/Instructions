@@ -1,0 +1,10 @@
+For this project, you are going to use AJAX to create a web page that displays a famous historical figure, Einstein, and his information. Follow the below requirements.
+
+Within the einstein.json file, create a json object that includes the following keys:
+name with Einsteins full name
+picture that uses a url of his picture
+birthday with Einsteins birth date
+bio that includes his full bio
+Create a function that will show the name, picture and birthday of Einstein when the page is loaded using the einstein.json file.
+Create a button that will call the above function and will display his bio when clicked.
+Don't forget the necessary HTML code to allow this all to work!
