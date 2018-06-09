@@ -1,0 +1,29 @@
+{
+  "firstNname": "John",
+  "lastNname": "Smith",
+  "location": "Delaware",
+  "websites": [
+    {
+      "description": "work",
+      "URL": "https://www.JSONSMITH.com/"
+    },
+    {
+      "description": "videos",
+      "URL": "https://www.youtube.com"
+    }
+  ],
+  "socialMedia": [
+    {
+      "description": "twitter",
+      "link": "https://twitter.com"
+    },
+    {
+      "description": "facebook",
+      "link": "https://www.facebook.com/"
+    },
+    {
+      "description": "github",
+      "link": "https://github.com"
+    }
+  ]
+}
