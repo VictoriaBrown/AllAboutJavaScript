@@ -1,0 +1,26 @@
+{
+  "andrew": {
+    "username": "Shucks",
+    "location": "Florida",
+    "online": true,
+    "followers": 987
+  },
+  "jesse": {
+    "username": "JesJesEH",
+    "location": "Canada",
+    "online": false,
+    "followers": 432
+  },
+  "mark": {
+    "username": "MarkyMark",
+    "location": "Georgia",
+    "online": false,
+    "followers": 321
+  },
+  "kyle": {
+    "username": "IareKyle",
+    "location": "New York",
+    "online": true,
+    "followers": 654
+  }
+}
