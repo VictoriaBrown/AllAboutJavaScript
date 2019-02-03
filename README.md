@@ -17,3 +17,25 @@ function name() {
      }  
 }
 ```
+
+## L04HandsOn
+This was an assignment completed for college. Within this folder, you'll find an script.js page. Within the JS file, you'll find a Parent class. This was given from the assignment. I was instructed to create 3 sub-classes that inherit from the parent Employee class. The three new subclasses that I created were Manager, Designer, and SalesAssociate. The methods I created were: jobDescription(), yearsExperience(), and degreeCompleted(). Below is the code that I started with. Everything else in the file was done by me.
+
+```javascript
+class Employee {
+  constructor(name, salary, hireDate) {
+    this.name = name;
+    this.salary = salary;
+    this.hireDate = hireDate;
+  }
+  getName() {
+    console.log(this.name.toUpperCase());
+  }
+  getSalary() {
+    console.log(this.salary);
+  }
+  getHireDate() {
+    console.log(this.hireDate);
+  }
+}
+```
