@@ -39,3 +39,6 @@ class Employee {
   }
 }
 ```
+
+## L05HandsOn
+This was an assignment completed for college. Within this folder, you'll find two files that I created: index.html and style.css. This project includes the following: a header and 10 images that are centered and styled with Flexbox.
