@@ -14,4 +14,4 @@ This was an assignment completed for college. Within this folder, you'll find an
      else {  
        document.getElementById("demo").innerHTML = "Hello Human!";  
      }  
-}  ''''
+}  '''
