@@ -7,12 +7,13 @@ This was an assignment completed for college. Within this folder, you'll find an
 ## L03HandsOn
 This was an assignment completed for college. Within this folder, you'll find an index.html page and a script.js file. Within the JS file, you'll find a switch..case statement that checks highSchoolGrade and sets the grade according to the correct term. (For example 9=Freshman and 12=Senior). The default case sets grade to Invalid. Part 2 of this assignment was to change the following if..else to a ternary.
 
-<code> function name() {
-  if (firstName === "John") {
-    document.getElementById("demo").innerHTML = "Hello John!";
-  }
-  else {
-    document.getElementById("demo").innerHTML = "Hello Human!";
-  }
-}
-</code>
+'''
+  function name() {
+    if (firstName === "John") {  
+      document.getElementById("demo").innerHTML = "Hello John!";  
+    }  
+    else {  
+      document.getElementById("demo").innerHTML = "Hello Human!";  
+    }  
+}  
+''''
