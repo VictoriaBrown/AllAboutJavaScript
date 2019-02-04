@@ -55,6 +55,6 @@ This was an assignment completed for college. You will find a project that inclu
      * Border
      * Hoverable rows
      * 3 columns, 4 rows
-* 3 bootstrap buttons with each a different color
+* 3 Bootstrap buttons with each a different color
 
 The page is styled with CSS, and using Bootstrap Grid Layout for the design.
