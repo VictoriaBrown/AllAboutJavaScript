@@ -39,3 +39,22 @@ class Employee {
   }
 }
 ```
+
+## L06HandsOn
+This was an assignment completed for college. You will find a project that includes the following: 
+* Nav bar
+     * 4 nav tabs/pills
+     * 1 drop-down menu
+     * Search box that includes glyphicon
+* Form
+     * First Name
+     * Last Name
+     * Phone Number
+     * Email
+* Table
+     * Border
+     * Hoverable rows
+     * 3 columns, 4 rows
+* 3 bootstrap buttons with each a different color
+
+The page is styled with CSS, and using Bootstrap Grid Layout for the design.
