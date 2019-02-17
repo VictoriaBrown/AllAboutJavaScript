@@ -98,3 +98,17 @@ This file explores our JSX options with React. It goes through creating unordere
 
 Please see index.js for source code.
 
+## React4
+Completed the following requirements for this assignment: 
+Write the following table using JSX:
+
+State	Population	Capital
+Idaho	1.683 million	Boise
+Tennessee	6.651 million	Nashville
+Maine	1.331 million	Agusta
+Wisconsin	5.779 million	Madison
+
+It must also have the following:
+1. Use a function.
+2. Minimum of 3 parameters used
+3. Use curly braces
