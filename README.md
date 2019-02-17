@@ -93,3 +93,8 @@ Create unordered list that contains the following:
      
 Please see index.html and index.js for source code.
 
+## React3
+This file explores our JSX options with React. It goes through creating unordered lists, nested unordered lists, and creating variables with HTML to enter into our render method.
+
+Please see index.js for source code.
+
