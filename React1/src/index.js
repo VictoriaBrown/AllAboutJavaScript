@@ -15,19 +15,19 @@ ReactDOM.render(
 // Putting an h1 element inside of a div
 ReactDOM.render(
     React.createElement("div", {}, React.createElement("h1", {}, "h1 element inside of a div")),
-    document.getElementById("root")
+    document.getElementById("h1InsideDiv")
 );
 
 // Rendering a new element with a class id being passed in the props
 ReactDOM.render(
     React.createElement("h1", { className: 'flowers' }, "h1 element with class name being set in props!"),
-    document.getElementById("root")
+    document.getElementById("passingIdInProps")
 );
 
 // Rendering a new anchor element with href being passed in the props
 ReactDOM.render(
     React.createElement("a", { href: 'https://www.google.com' }, "Click here to go to Google. Anchor element with href being set in props!"),
-    document.getElementById('root')
+    document.getElementById('anchor')
 );
 
 // Rendering an unordered list
@@ -37,7 +37,7 @@ ReactDOM.render(
         React.createElement("li", {}, "Bananas"),
         React.createElement("li", {}, "Mangos")
     ),
-    document.getElementById("root")
+    document.getElementById("unorderedList")
 );
 
 // Rendering a nested unordered list
@@ -62,7 +62,7 @@ ReactDOM.render(
             ),
         )
     ),
-    document.getElementById("root")
+    document.getElementById("nestedUnorderedList")
 );
 
 // Breaking down the above nested lists into variables for simplfication
@@ -83,6 +83,6 @@ ReactDOM.render(
         React.createElement("li", {}, 'Oranges', oranges),
         React.createElement("li", {}, 'Mangos', mangos)
     ),
-    document.getElementById("root")
+    document.getElementById("variablesUnoreredList")
 );
 
