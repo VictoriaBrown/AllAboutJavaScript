@@ -112,3 +112,19 @@ It must also have the following:
 1. Use a function.
 2. Minimum of 3 parameters used
 3. Use curly braces
+
+## React 5
+The file showcases the following functionality:
+* GroceryList component - takes in 3 props: item1, item2, item3 and places them in an unordered list
+* Hello component - takes in 1 prop: name and places it in a h1 element nested in a div
+* Employee component - takes in 2-3 props: name, age, position and places that information inside of an unordered list. There are Prop Types set up for each of these props. name: string and required, age: number and required, position: string. The position has a Default Prop of employee.
+* User component - takes in 9 props: name, address, city, state, zip, items, paid, amount, and shipped. Places that information into a nested unordered list. There are Prop Types set up for each of these props. name: string and required, address: string and requierd, city: string and required, state: string and required, zip: number and required, items: string and required, paid: bool, amount: number and required, shipped: bool. The paid and shipped have Default Props of false.
+* List component - takes in 1 prop: items. The items is a 2D array with name and price values. In the component itself, it uses map() to loop through the 2D array and place each item name and price in an unordered list. 
+
+## React 6
+Completed the following requirements: 
+Create a component named App that returns the array you will be working with in this Hands-On. Then, create a new component named List that maps over the following array and returns a numbered list of the array items. Lastly, make sure your ReactDOM.render() reflects that you are using the App component to return the data from the List component.
+
+Array:
+
+const favoriteCars = ['Honda CR-V ', 'Toyota Highlander', 'Ford F-150', 'BMW X3', 'Subaru Crosstrek']
